@@ -1,1 +1,1 @@
-Que des test pour la séance pratique pendant le cours
+Que des tests pour la séance pratique sur le cours de Git & GitHub
