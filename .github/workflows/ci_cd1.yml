@@ -28,7 +28,7 @@ jobs:
   # ---------------------------------------------------------
   test:
     # Runner : machine Ubuntu fournie par GitHub
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     # Étapes du job (exécutées séquentiellement)
     steps:
@@ -70,7 +70,7 @@ jobs:
   build:
     # "needs" crée une dépendance : build attend test
     needs: test
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
 
