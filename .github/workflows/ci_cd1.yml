@@ -10,11 +10,11 @@ name: CI/CD Pipeline
 #   - une pull request cible main
 # ============================================================
 on:
-  workflow_dispatch:
-  #push:
-  # branches: [ main ]
-  #pull_request:
-  # branches: [ main ]
+  #workflow_dispatch:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
   
 
 # ============================================================
